@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  public options = {
+    opens: 'left'
+  };
+
+  public updateOpens () {
+    this.options.opens = 'right';
+  }
 }

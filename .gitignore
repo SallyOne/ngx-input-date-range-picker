@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+.ng_pkg_build
 
 # dependencies
 /node_modules
@@ -23,6 +24,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.idea
 
 # misc
 /.sass-cache
